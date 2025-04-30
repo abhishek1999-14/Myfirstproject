@@ -18,6 +18,7 @@ test(`E2E_flow_handson ${data.productname}`, async ({ page }) => {
     //console.log (await page.title());
    await LoginPage.goTo()
    await  LoginPage.validLogin(data.username,data.password);
+   console.log("adding new changes to commit")
 
    // await page.waitForLoadState('networkidle');
     //const products= await page.locator(".card-body");
